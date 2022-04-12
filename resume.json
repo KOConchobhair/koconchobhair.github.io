@@ -1,0 +1,214 @@
+{
+  "basics": {
+    "name": "Kyle O'Connor",
+    "label": "Biometrics + Cloud",
+    "picture": "",
+    "email": "kyle.james.oconnor@gmail.com",
+    "website": "https://koconchobhair.github.io",
+    "summary": "Senior level Software Engineer with strong technical and leadership skills as well as 10 years of experience across the R&D, defense and biometrics industries.",
+    "location": {
+      "address": "2316 Mercer Street",
+      "postalCode": "19147",
+      "city": "Philadelphia",
+      "countryCode": "US",
+      "region": ""
+    },
+    "profiles": [],
+    "phone": "215-253-8556"
+  },
+  "work": [
+    {
+      "company": "Princeton Identity",
+      "position": "Lead Software Engineer",
+      "website": "https://www.princetonidentity.com",
+      "startDate": "2016-08-01",
+      "summary": "Lead the software team and all software development efforts Responsible for cloud architecture and operations in AWS Design and develop embedded software, frontend and backend web applications for multimodal biometrics products Implement and maintain DevOps infrastructure on-prem and in the cloud Familiar with mobile development on Android and iOS",
+      "highlights": []
+    },
+    {
+      "company": "SRI International",
+      "position": "Software Engineer III",
+      "website": "https://www.sri.com",
+      "startDate": "2010-07-01",
+      "summary": "Member of System Software Design and Development group Maintained common software framework across all products Designed and developed software for multiple products in the biometrics and geospatial domains such as multimodal biometrics on mobile (Android) and embedded platforms and real-time video processing and georegistration systems  Supported the infrastructure for continuous integration, static analysis, and unit testing",
+      "highlights": [],
+      "endDate": "2016-08-01"
+    },
+    {
+      "company": "Lockheed Martin ATL",
+      "position": "Software Developer",
+      "website": "https://www.lockheedmartin.com",
+      "startDate": "2009-04-01",
+      "summary": "Member of User-Centered Interfaces group focusing on Human Computer Interaction Lead the integration of two major internal software products Interfaced with spoken language understanding technology Handled multiple development tasks in Java and coordinated with a team of developers Implemented software utilities to automate manual testing tasks Designed dynamic and interactive interfaces for augmented reality efforts",
+      "highlights": [],
+      "endDate": "2009-09-01"
+    },
+    {
+      "company": "Lockheed Martin MS2",
+      "position": "Test Engineer",
+      "website": "https://www.lockheedmartin.com",
+      "startDate": "2008-04-01",
+      "summary": "Member of Engineering Test & Evaluation team for Ballistic Missile Defense signal processor Performed radar and signal processing tests at navy test facility Wrote documentation for test requirements and procedures Obtained full secret security clearance and dealt with classified information",
+      "highlights": [],
+      "endDate": "2008-09-01"
+    },
+    {
+      "company": "PJM Interconnection",
+      "position": "IT Support Analyst",
+      "website": "https://www.pjm.com",
+      "startDate": "2007-04-01",
+      "summary": "Member of Windows Infrastructure department Supported packaging and distribution of software/updates to company Aided department with general IT and Windows support Instrumental in training new employee on packaging processes",
+      "highlights": [],
+      "endDate": "2007-09-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Drexel University",
+      "area": "Computer Engineering",
+      "studyType": "BS",
+      "startDate": "2005-09-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2010-06-15"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Software Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Visual Studio",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Continuous Integration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Static Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Unit Testing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Subversion",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Windows",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jenkins",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C++/CLI",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MSBuild",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TFS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Devops",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Embedded Software",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Embedded Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Embedded Systems",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Brazilian Portuguese",
+      "fluency": "Elementary proficiency"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Open Source Contributions",
+      "startDate": "2016-01-01",
+      "summary": "libpopcnt, localstack, debezium, find-sec-bugs",
+      "url": ""
+    },  
+    {
+      "name": "Senior Design Project",
+      "startDate": "2009-09-01",
+      "summary": "Air Quality Sensor Network for Philadelphia Collaborated with the Philadelphia Clean Air Council to design and deploy a portable air quality sensor network. Recognized as 2nd best project in the ECE Department.",
+      "url": "",
+      "endDate": "2010-06-01"
+    }
+  ]
+}

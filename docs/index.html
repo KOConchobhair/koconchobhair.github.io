@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Kyle O&#x27;Connor</title>
+    <meta name="description" content="Senior level Software Engineer with strong technical and leadership skills as well as 10 years of experience across the R&amp;amp;D, defense and biometrics industries.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
+    <style>:root {
+  /* Colors */
+  --primaryColor: #212529;
+  --secondaryColor: #95a5a6;
+  --accentColor: #f1c40f;
+  --linkColor: #2ecc71;
+  --mutedColor: #f4f6f6;
+
+  /* Typography */
+  --ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--ratio));
+  --scale2: calc(var(--scale1) * var(--ratio));
+  --scale3: calc(var(--scale2) * var(--ratio));
+  --scale4: calc(var(--scale3) * var(--ratio));
+  --scale5: calc(var(--scale4) * var(--ratio));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: var(--primaryColor);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+  margin-bottom: 4em;
+}
+
+body::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+li + li {
+  margin-top: 0.2em;
+}
+
+li::marker {
+  color: var(--mutedColor);
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:focus,
+a:hover {
+  color: var(--accentColor);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--scale5);
+}
+
+h2 {
+  color: var(--secondaryColor);
+  font-size: var(--scale4);
+}
+
+h3 {
+  color: var(--accentColor);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--scale2);
+}
+
+h5 {
+  font-size: var(--scale1);
+}
+
+h6 {
+  font-size: var(--scale0);
+}
+
+blockquote {
+  border-left: 0.2em solid var(--mutedColor);
+  padding-left: 1em;
+}
+
+cite {
+  color: var(--secondaryColor);
+  font-style: inherit;
+}
+
+cite::before {
+  content: '— ';
+}
+
+.masthead {
+  background: var(--mutedColor);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+  row-gap: 0;
+}
+
+.masthead > *,
+section {
+  grid-column: main;
+}
+
+article > * + *,
+blockquote > * + * {
+  margin-top: 0.6em;
+}
+
+.stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.spaced-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spaced-list:first-child::before {
+  border-bottom: 1px solid var(--mutedColor);
+  content: '';
+  flex-grow: 1;
+  margin: 0 1em;
+  order: 1;
+}
+
+.spaced-list > :nth-child(2) {
+  order: 2;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: var(--mutedColor);
+  margin: 0 0.2em 0.2em 0;
+  padding: 0.2em 0.6em;
+}
+
+@media print, (min-width: 48em) {
+  h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  .masthead > *,
+  section {
+    grid-column: content;
+  }
+
+  section {
+    display: contents;
+  }
+
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+  </head>
+  <body>
+      <header class="masthead">
+          <h1>Kyle O&#x27;Connor</h1>
+          <h2>Biometrics + Cloud</h2>
+      </header>
+      <section id="contact">
+        <h3>Contact</h3>
+        <div class="grid-list">
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:kyle.james.oconnor@gmail.com">kyle.james.oconnor@gmail.com</a>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              215-253-8556
+            </div>
+        </div>
+      </section>
+        <section id="about">
+          <h3>About</h3>
+          <article>
+            <p>Senior level Software Engineer with strong technical and leadership skills as well as 10 years of experience across the R&amp;D, defense and biometrics industries.</p>
+          </article>
+        </section>
+
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2016-08-01">Jul 2016</time> –
+                    Present
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Lead Software Engineer</strong>
+                </div>
+              </header>
+                <p>Lead the software team and all software development efforts Responsible for cloud architecture and operations in AWS Design and develop embedded software, frontend and backend web applications for multimodal biometrics products Implement and maintain DevOps infrastructure on-prem and in the cloud Familiar with mobile development on Android and iOS</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2010-07-01">Jun 2010</time> –
+                    <time datetime="2016-08-01">Jul 2016</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Software Engineer III</strong>
+                </div>
+              </header>
+                <p>Member of System Software Design and Development group Maintained common software framework across all products Designed and developed software for multiple products in the biometrics and geospatial domains such as multimodal biometrics on mobile (Android) and embedded platforms and real-time video processing and georegistration systems  Supported the infrastructure for continuous integration, static analysis, and unit testing</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2009-04-01">Mar 2009</time> –
+                    <time datetime="2009-09-01">Aug 2009</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Software Developer</strong>
+                </div>
+              </header>
+                <p>Member of User-Centered Interfaces group focusing on Human Computer Interaction Lead the integration of two major internal software products Interfaced with spoken language understanding technology Handled multiple development tasks in Java and coordinated with a team of developers Implemented software utilities to automate manual testing tasks Designed dynamic and interactive interfaces for augmented reality efforts</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2008-04-01">Mar 2008</time> –
+                    <time datetime="2008-09-01">Aug 2008</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Test Engineer</strong>
+                </div>
+              </header>
+                <p>Member of Engineering Test &amp; Evaluation team for Ballistic Missile Defense signal processor Performed radar and signal processing tests at navy test facility Wrote documentation for test requirements and procedures Obtained full secret security clearance and dealt with classified information</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2007-04-01">Mar 2007</time> –
+                    <time datetime="2007-09-01">Aug 2007</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>IT Support Analyst</strong>
+                </div>
+              </header>
+                <p>Member of Windows Infrastructure department Supported packaging and distribution of software/updates to company Aided department with general IT and Windows support Instrumental in training new employee on packaging processes</p>
+            </article>
+        </div>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Drexel University</h4>
+                  <span>
+                    <time datetime="2005-09-01">Aug 2005</time> –
+                    <time datetime="2010-06-15">Jun 2010</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Computer Engineering</strong>
+                </div>
+              </header>
+                <p>BS</p>
+            </article>
+        </div>
+      </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Open Source Contributions</h4>
+                  <span>
+                    <time datetime="2016-01-01">Dec 2015</time> –
+                    Present
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                  </span>
+                    <a href=""></a>
+                </div>
+              </header>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Senior Design Project</h4>
+                  <span>
+                    <time datetime="2009-09-01">Aug 2009</time> –
+                    <time datetime="2010-06-01">May 2010</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                  </span>
+                    <a href=""></a>
+                </div>
+              </header>
+            </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Software Engineering</h4>
+            </div>
+            <div>
+                <h4>Software Design</h4>
+            </div>
+            <div>
+                <h4>Visual Studio</h4>
+            </div>
+            <div>
+                <h4>C</h4>
+            </div>
+            <div>
+                <h4>Continuous Integration</h4>
+            </div>
+            <div>
+                <h4>Static Analysis</h4>
+            </div>
+            <div>
+                <h4>Unit Testing</h4>
+            </div>
+            <div>
+                <h4>C++</h4>
+            </div>
+            <div>
+                <h4>Subversion</h4>
+            </div>
+            <div>
+                <h4>Linux</h4>
+            </div>
+            <div>
+                <h4>Windows</h4>
+            </div>
+            <div>
+                <h4>Java</h4>
+            </div>
+            <div>
+                <h4>Android</h4>
+            </div>
+            <div>
+                <h4>Jenkins</h4>
+            </div>
+            <div>
+                <h4>C++/CLI</h4>
+            </div>
+            <div>
+                <h4>MSBuild</h4>
+            </div>
+            <div>
+                <h4>TFS</h4>
+            </div>
+            <div>
+                <h4>C#</h4>
+            </div>
+            <div>
+                <h4>Software Development</h4>
+            </div>
+            <div>
+                <h4>Devops</h4>
+            </div>
+            <div>
+                <h4>Embedded Software</h4>
+            </div>
+            <div>
+                <h4>Embedded Linux</h4>
+            </div>
+            <div>
+                <h4>Embedded Systems</h4>
+            </div>
+        </div>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Brazilian Portuguese</h4>
+              Elementary proficiency
+            </div>
+        </div>
+      </section>
+  </body>
+</html>

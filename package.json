@@ -1,0 +1,25 @@
+{
+  "name": "koconchobhair-resume",
+  "version": "1.0.0",
+  "description": "my resume using https://jsonresume.org",
+  "main": "resume.json",
+  "scripts": {
+    "test": "./node_modules/.bin/resume validate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KOConchobhair/koconchobhair.github.io.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Kyle O'Connor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KOConchobhair/koconchobhair.github.io/issues"
+  },
+  "homepage": "https://koconchobhair.github.io",
+  "dependencies": {
+    "resume-cli": "^3.0.6"
+  }
+}
