@@ -1,469 +1,592 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Kyle O&#x27;Connor</title>
-    <meta name="description" content="Senior level Software Engineer with strong technical and leadership skills as well as 10 years of experience across the R&amp;amp;D, defense and biometrics industries.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
-    <style>:root {
-  /* Colors */
-  --primaryColor: #212529;
-  --secondaryColor: #95a5a6;
-  --accentColor: #f1c40f;
-  --linkColor: #2ecc71;
-  --mutedColor: #f4f6f6;
+<!doctype html>
+<html>
+	<head>
+        <title>Kyle O&#x27;Connor</title>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Responsive HTML5 Developer Resume for Kyle O&#x27;Connor">
+        <meta name="generator" content="https://www.npmjs.com/package/jsonresume-theme-orbit/v/1.1.0"/>
 
-  /* Typography */
-  --ratio: 1.25;
-  --scale0: 1rem;
-  --scale1: calc(var(--scale0) * var(--ratio));
-  --scale2: calc(var(--scale1) * var(--ratio));
-  --scale3: calc(var(--scale2) * var(--ratio));
-  --scale4: calc(var(--scale3) * var(--ratio));
-  --scale5: calc(var(--scale4) * var(--ratio));
-}
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <!-- Global CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        <!-- Plugins CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 14px;
-}
-
+        <!-- Theme CSS -->
+        <style>
+                /*   
+ * Template Name: Orbit - Responsive Resume/CV Template for Developers
+ * Version: 1.0
+ * Author: Xiaoying Riley
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: http://themes.3rdwavemedia.com/
+*/
+/* styles.css */
+/* ======= Base ======= */
 body {
-  color: var(--primaryColor);
-  display: grid;
-  font: 1em/1.5 Lato, sans-serif;
-  gap: 2em;
-  grid-template-columns:
-    [full-start]
-    1fr
-    [main-start side-start]
-    minmax(min-content, 12em)
-    [side-end content-start]
-    minmax(min-content, 36em)
-    [main-end content-end]
-    1fr
-    [full-end];
-  grid-template-rows: auto [content] 0;
-  margin-bottom: 4em;
+  font-family: 'Roboto', sans-serif;
+  color: #545E6C;
+  background: #f5f5f5;
+  font-size: 14px;
+  padding: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
-body::before {
-  content: '';
-  grid-column: full;
-  grid-row: content;
-}
-
-ol,
-ul {
-  padding-left: 1em;
-}
-
-li + li {
-  margin-top: 0.2em;
-}
-
-li::marker {
-  color: var(--mutedColor);
-}
-
-a {
-  color: var(--linkColor);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-a:focus,
-a:hover {
-  color: var(--accentColor);
-}
-
 h1,
 h2,
 h3,
-h5 {
-  font-weight: normal;
-}
-
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-}
-
-h1 {
-  font-size: var(--scale5);
-}
-
-h2 {
-  color: var(--secondaryColor);
-  font-size: var(--scale4);
-}
-
-h3 {
-  color: var(--accentColor);
-  font-size: var(--scale3);
-  grid-column: side;
-  margin-bottom: 1rem;
-}
-
-h4 {
-  font-size: var(--scale2);
-}
-
-h5 {
-  font-size: var(--scale1);
-}
-
+h4,
+h5,
 h6 {
-  font-size: var(--scale0);
+  font-weight: 700;
 }
-
-blockquote {
-  border-left: 0.2em solid var(--mutedColor);
-  padding-left: 1em;
+a {
+  color: #2d7788;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
 }
-
-cite {
-  color: var(--secondaryColor);
-  font-style: inherit;
+a:hover {
+  text-decoration: underline;
+  color: #1a454f;
 }
-
-cite::before {
-  content: '— ';
+a:focus {
+  text-decoration: none;
 }
-
-.masthead {
-  background: var(--mutedColor);
-  display: inherit;
-  gap: inherit;
-  grid-column: full;
-  grid-template-columns: inherit;
-  padding: 4em 0;
-  row-gap: 0;
+p {
+  line-height: 1.5;
 }
-
-.masthead > *,
-section {
-  grid-column: main;
+.wrapper {
+  background: #42A8C0;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-article > * + *,
-blockquote > * + * {
-  margin-top: 0.6em;
+.sidebar-wrapper {
+  background: #42A8C0;
+  position: absolute;
+  right: 0;
+  width: 240px;
+  height: 100%;
+  min-height: 800px;
+  color: #fff;
 }
-
-.stack {
-  display: grid;
-  gap: 1.5em;
+.sidebar-wrapper a {
+  color: #fff;
 }
-
-.grid-list {
-  display: grid;
-  gap: 1em;
+.sidebar-wrapper .profile-container {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
 }
-
-.spaced-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.sidebar-wrapper .name {
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
-
-.spaced-list:first-child::before {
-  border-bottom: 1px solid var(--mutedColor);
-  content: '';
-  flex-grow: 1;
-  margin: 0 1em;
-  order: 1;
+.sidebar-wrapper .tagline {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
-.spaced-list > :nth-child(2) {
-  order: 2;
+.sidebar-wrapper .profile {
+  margin-bottom: 15px;
 }
-
-.tag-list {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
+.sidebar-wrapper .contact-list .fa {
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: middle;
 }
-
-.tag-list > li {
-  background: var(--mutedColor);
-  margin: 0 0.2em 0.2em 0;
-  padding: 0.2em 0.6em;
+.sidebar-wrapper .contact-list li {
+  margin-bottom: 15px;
 }
-
-@media print, (min-width: 48em) {
-  h3 {
-    text-align: right;
-    margin-bottom: inherit;
+.sidebar-wrapper .contact-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .contact-list .email .fa {
+  font-size: 14px;
+}
+.sidebar-wrapper .container-block {
+  padding: 30px;
+}
+.sidebar-wrapper .container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .degree {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.sidebar-wrapper .education-container .item {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .education-container .item:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .education-container .meta {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.sidebar-wrapper .education-container .time {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.sidebar-wrapper .languages-container .lang-desc {
+  color: rgba(255, 255, 255, 0.6);
+}
+.sidebar-wrapper .languages-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .languages-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .languages-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .interests-list li:last-child {
+  margin-bottom: 0;
+}
+.main-wrapper {
+  background: #fff;
+  padding: 60px;
+  padding-right: 300px;
+  min-height: 800px;
+}
+.main-wrapper .section-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7788;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.main-wrapper .section-title .fa {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #2d7788;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+}
+.main-wrapper .section {
+  margin-bottom: 60px;
+}
+.main-wrapper .experiences-section .item {
+  margin-bottom: 30px;
+}
+.main-wrapper .upper-row {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+.main-wrapper .job-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.main-wrapper .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+}
+.main-wrapper .company {
+  margin-bottom: 10px;
+  color: #97AAC3;
+}
+.main-wrapper .project-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.main-wrapper .projects-section .intro {
+  margin-bottom: 30px;
+}
+.main-wrapper .projects-section .item {
+  margin-bottom: 15px;
+}
+.skillset .item {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.skillset .level-title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.skillset .level-bar {
+  height: 12px;
+  background: #f5f5f5;
+}
+.skillset .level-bar-inner {
+  height: 12px;
+  background: #7bc2d3;
+}
+.footer {
+  padding: 30px;
+  padding-top: 60px;
+}
+.footer .copyright {
+  line-height: 1.6;
+  color: #545E6C;
+  font-size: 13px;
+}
+.footer .fa-heart {
+  color: #fb866a;
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .sidebar-wrapper {
+    position: static;
+    width: inherit;
   }
-
-  .masthead > *,
-  section {
-    grid-column: content;
+  .main-wrapper {
+    padding: 30px;
   }
-
-  section {
-    display: contents;
+  .main-wrapper .time {
+    position: static;
+    display: block;
+    margin-top: 5px;
   }
-
-  .grid-list {
-    grid-template-columns: 1fr 1fr;
+  .main-wrapper .upper-row {
+    margin-bottom: 0;
   }
 }
-</style>
-  </head>
-  <body>
-      <header class="masthead">
-          <h1>Kyle O&#x27;Connor</h1>
-          <h2>Biometrics + Cloud</h2>
-      </header>
-      <section id="contact">
-        <h3>Contact</h3>
-        <div class="grid-list">
-            <div>
-              <h4>Email</h4>
-              <a href="mailto:kyle.james.oconnor@gmail.com">kyle.james.oconnor@gmail.com</a>
-            </div>
-            <div>
-              <h4>Phone</h4>
-              215-253-8556
-            </div>
-        </div>
-      </section>
-        <section id="about">
-          <h3>About</h3>
-          <article>
-            <p>Senior level Software Engineer with strong technical and leadership skills as well as 10 years of experience across the R&amp;D, defense and biometrics industries.</p>
-          </article>
-        </section>
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .skillset .level-title {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-bottom: 0;
+  }
+  .skillset .level-bar {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    position: relative;
+    top: 1px;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
 
-      <section id="work">
-        <h3>Work</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4></h4>
-                  <span>
-                    <time datetime="2016-08-01">Aug 2016</time> –
-                    Present
-                  </span>
+        </style>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+
+            <div class="profile-container">
+                <img class="profile" src="" alt="" />
+                <h1 class="name">Kyle O&#x27;Connor</h1>
+                <h3 class="tagline">Software Engineer</h3>
+            </div><!--//profile-container-->
+        
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:kyle.james.oconnor@gmail.com">kyle.james.oconnor@gmail.com</a></li>
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:215-253-8556">215-253-8556</a></li>
+                    <li class="website"><i class="fa fa-globe"></i><a href="https://koconchobhair.github.io" target="_blank">koconchobhair.github.io</a></li>
+        
+                        <li class="resume (pdf)"><i class="fa fa-resume (pdf)"></i><a href="https://koconchobhair.github.io/resume.pdf" target="_blank">koconchobhair.github.io/resume.pdf</a></li>
+                        <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/kylejoconnor" target="_blank">www.linkedin.com/in/kylejoconnor</a></li>
+                    <!--                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li>  -->
+                </ul>
+            </div><!--//contact-container-->
+        
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                    <div class="item">
+                        <h4 class="degree">BS in Computer Engineering</h4>
+                        <h5 class="meta">Drexel University</h5>
+                        <div class="time">2005 - 2010</div>
+                    </div><!--//item-->
+            </div><!--//education-container-->
+        
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                        <li>Brazilian Portuguese <span class="lang-desc">(Elementary proficiency)</span></li>
+                </ul>
+            </div><!--//interests-->
+        
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                        <li>Soccer</li>
+                </ul>
+            </div><!--//interests-->
+
+        </div><!--//sidebar-wrapper-->
+
+        <div class="main-wrapper">
+
+            <section class="section summary-section">
+                <h2 class="section-title"><i class="fa fa-user"></i>Personal Summary</h2>
+                <div class="summary">
+                    <p>Senior level Software Engineer with strong technical and leadership skills as well as 12 years of experience across the R&amp;D, defense and biometrics industries.</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+        
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Work Experience</h2>
+        
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Lead Software Engineer</h3>
+                                <div class="time">2016 - Present</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="https://www.princetonidentity.com" target="_blank">Princeton Identity</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                             Princeton Identity is a biometric identity management company used in various markets such as government, physical access control, commercial real estate. Created as a spin-off from SRI International with investment from Samsung.
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Software Engineer III</h3>
+                                <div class="time">2010 - 2016</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="https://www.sri.com" target="_blank">SRI International</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Member of System Software Design and Development group
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Software Developer</h3>
+                                <div class="time">2009 - 2009</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="https://www.lockheedmartin.com" target="_blank">Lockheed Martin ATL</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Member of User-Centered Interfaces group focusing on Human Computer Interaction
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Test Engineer</h3>
+                                <div class="time">2008 - 2008</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="https://www.lockheedmartin.com" target="_blank">Lockheed Martin MS2</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Member of Engineering Test &amp; Evaluation team for Ballistic Missile Defense signal processor
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">IT Support Analyst</h3>
+                                <div class="time">2007 - 2007</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="https://www.pjm.com" target="_blank">PJM Interconnection</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Member of Windows Infrastructure department
+                        </div><!--//details-->
+                    </div><!--//item-->
+            </section><!--//section-->
+        
+        
+        
+            <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+                <!--                    <div class="intro">
+                                        <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+                                    </div>--><!--//intro-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://github.com/KOConchobhair" target="_blank">Open Source Contributions</a></span> -
+                        <span class="project-tagline"></span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://code.google.com/archive/p/ece01sd/" target="_blank">Senior Design Project</a></span> -
+                        <span class="project-tagline">Collaborated with the Philadelphia Clean Air Council to design and deploy a portable air quality sensor network (ZigBee). Recognized as 2nd best project in the ECE Department.</span>
+                    </div><!--//item-->
+            </section><!--//section-->
+        
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-book"></i>Publications</h2>
+        
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">&quot;Method and System for Seamless Biometric System Self-Enrollment&quot;</h3>
+                                <div class="time">Present</div>
+                            </div><!--//upper-row-->
+                            <div class="company">Patent (Provisional)</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">&quot;Face Biometric Recognition with Anti-Spoofing&quot;</h3>
+                                <div class="time">Present</div>
+                            </div><!--//upper-row-->
+                            <div class="company">Patent (Provisional)</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            
+                        </div><!--//details-->
+                    </div><!--//item-->
+            </section><!--//section-->
+        
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+                <div class="skillset">
+                        <div class="item">
+                            <h3 class="level-title">Programming Languages</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="100%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">DevOps</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="100%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">OS</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="100%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">IDE</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="100%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">Static Analysis</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="100%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">Unit Testing</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="100%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">Build Tools</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="100%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">Version Control</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="100%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+        
                 </div>
-                <div class="spaced-list">
-                    <strong>Lead Software Engineer</strong>
-                </div>
-              </header>
-                <p>Lead the software team and all software development efforts Responsible for cloud architecture and operations in AWS Design and develop embedded software, frontend and backend web applications for multimodal biometrics products Implement and maintain DevOps infrastructure on-prem and in the cloud Familiar with mobile development on Android and iOS</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4></h4>
-                  <span>
-                    <time datetime="2010-07-01">Jul 2010</time> –
-                    <time datetime="2016-08-01">Aug 2016</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Software Engineer III</strong>
-                </div>
-              </header>
-                <p>Member of System Software Design and Development group Maintained common software framework across all products Designed and developed software for multiple products in the biometrics and geospatial domains such as multimodal biometrics on mobile (Android) and embedded platforms and real-time video processing and georegistration systems  Supported the infrastructure for continuous integration, static analysis, and unit testing</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4></h4>
-                  <span>
-                    <time datetime="2009-04-01">Apr 2009</time> –
-                    <time datetime="2009-09-01">Sep 2009</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Software Developer</strong>
-                </div>
-              </header>
-                <p>Member of User-Centered Interfaces group focusing on Human Computer Interaction Lead the integration of two major internal software products Interfaced with spoken language understanding technology Handled multiple development tasks in Java and coordinated with a team of developers Implemented software utilities to automate manual testing tasks Designed dynamic and interactive interfaces for augmented reality efforts</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4></h4>
-                  <span>
-                    <time datetime="2008-04-01">Apr 2008</time> –
-                    <time datetime="2008-09-01">Sep 2008</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Test Engineer</strong>
-                </div>
-              </header>
-                <p>Member of Engineering Test &amp; Evaluation team for Ballistic Missile Defense signal processor Performed radar and signal processing tests at navy test facility Wrote documentation for test requirements and procedures Obtained full secret security clearance and dealt with classified information</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4></h4>
-                  <span>
-                    <time datetime="2007-04-01">Apr 2007</time> –
-                    <time datetime="2007-09-01">Sep 2007</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>IT Support Analyst</strong>
-                </div>
-              </header>
-                <p>Member of Windows Infrastructure department Supported packaging and distribution of software/updates to company Aided department with general IT and Windows support Instrumental in training new employee on packaging processes</p>
-            </article>
-        </div>
-      </section>
-      <section id="education">
-        <h3>Education</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Drexel University</h4>
-                  <span>
-                    <time datetime="2005-09-01">Sep 2005</time> –
-                    <time datetime="2010-06-15">Jun 2010</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Computer Engineering</strong>
-                </div>
-              </header>
-                <p>BS</p>
-            </article>
-        </div>
-      </section>
-      <section id="projects">
-        <h3>Projects</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Open Source Contributions</h4>
-                  <span>
-                    <time datetime="2016-01-01">Jan 2016</time> –
-                    Present
-                  </span>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                  </span>
-                    <a href=""></a>
-                </div>
-              </header>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Senior Design Project</h4>
-                  <span>
-                    <time datetime="2009-09-01">Sep 2009</time> –
-                    <time datetime="2010-06-01">Jun 2010</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                  </span>
-                    <a href=""></a>
-                </div>
-              </header>
-            </article>
-        </div>
-      </section>
-      <section id="skills">
-        <h3>Skills</h3>
-        <div class="grid-list">
-            <div>
-                <h4>Software Engineering</h4>
-            </div>
-            <div>
-                <h4>Software Design</h4>
-            </div>
-            <div>
-                <h4>Visual Studio</h4>
-            </div>
-            <div>
-                <h4>C</h4>
-            </div>
-            <div>
-                <h4>Continuous Integration</h4>
-            </div>
-            <div>
-                <h4>Static Analysis</h4>
-            </div>
-            <div>
-                <h4>Unit Testing</h4>
-            </div>
-            <div>
-                <h4>C++</h4>
-            </div>
-            <div>
-                <h4>Subversion</h4>
-            </div>
-            <div>
-                <h4>Linux</h4>
-            </div>
-            <div>
-                <h4>Windows</h4>
-            </div>
-            <div>
-                <h4>Java</h4>
-            </div>
-            <div>
-                <h4>Android</h4>
-            </div>
-            <div>
-                <h4>Jenkins</h4>
-            </div>
-            <div>
-                <h4>C++/CLI</h4>
-            </div>
-            <div>
-                <h4>MSBuild</h4>
-            </div>
-            <div>
-                <h4>TFS</h4>
-            </div>
-            <div>
-                <h4>C#</h4>
-            </div>
-            <div>
-                <h4>Software Development</h4>
-            </div>
-            <div>
-                <h4>Devops</h4>
-            </div>
-            <div>
-                <h4>Embedded Software</h4>
-            </div>
-            <div>
-                <h4>Embedded Linux</h4>
-            </div>
-            <div>
-                <h4>Embedded Systems</h4>
-            </div>
-        </div>
-      </section>
-      <section id="languages">
-        <h3>Languages</h3>
-        <div class="grid-list">
-            <div>
-                <h4>Brazilian Portuguese</h4>
-              Elementary proficiency
-            </div>
-        </div>
-      </section>
-  </body>
+            </section><!--//skills-section-->
+
+        </div><!--//main-body-->
+    </div>
+
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script type="text/javascript">
+            jQuery(document).ready(function($) {
+
+
+    /*======= Skillset *=======*/
+    
+    
+    $('.level-bar-inner').css('width', '0');
+    
+    $('.level-bar-inner').each(function() {
+
+        var itemWidth = $(this).data('level');
+
+        $(this).animate({
+            width: itemWidth
+        }, 800);
+
+    });
+
+    
+
+});
+    </script>
+    </body>
 </html>
