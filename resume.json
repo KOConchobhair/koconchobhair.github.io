@@ -1,193 +1,212 @@
 {
   "basics": {
     "name": "Kyle O'Connor",
-    "label": "Biometrics + Cloud",
-    "picture": "",
+    "label": "Software Engineer",
+	"image": "",
     "email": "kyle.james.oconnor@gmail.com",
-    "website": "https://koconchobhair.github.io/resume.pdf",
-    "summary": "Senior level Software Engineer with strong technical and leadership skills as well as 10 years of experience across the R&D, defense and biometrics industries.",
+    "phone": "215-253-8556",
+    "website": "https://koconchobhair.github.io",
+    "url": "https://koconchobhair.github.io",
+    "summary": "Senior level Software Engineer with strong technical and leadership skills as well as 12 years of experience across the R&D, defense and biometrics industries.",
     "location": {
       "address": "2316 Mercer Street",
-      "postalCode": "19147",
+      "postalCode": "19125",
       "city": "Philadelphia",
-      "countryCode": "US",
-      "region": ""
+      "countryCode": "USA",
+      "region": "PA"
     },
-    "profiles": [],
-    "phone": "215-253-8556"
+    "profiles": [
+      {
+        "network": "Resume (PDF)",
+        "url": "https://koconchobhair.github.io/resume.pdf"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kylejoconnor"
+      }
+    ]
   },
   "work": [
     {
       "company": "Princeton Identity",
       "position": "Lead Software Engineer",
-      "website": "https://www.princetonidentity.com",
-      "startDate": "2016-08-01",
-      "summary": "Lead the software team and all software development efforts Responsible for cloud architecture and operations in AWS Design and develop embedded software, frontend and backend web applications for multimodal biometrics products Implement and maintain DevOps infrastructure on-prem and in the cloud Familiar with mobile development on Android and iOS",
-      "highlights": []
+      "url": "https://www.princetonidentity.com",
+      "startDate": "2016-08",
+      "summary": " Princeton Identity is a biometric identity management company used in various markets such as government, physical access control, commercial real estate. Created as a spin-off from SRI International with investment from Samsung.",
+      "highlights": [
+        "Lead the software team and all software development efforts, including software/hardware integration",
+        "Architected multi-tenant cloud application using AWS (and other services), focused on security and best practices",
+        "Design and develop frontend and backend web applications for multimodal biometrics products (Spring Boot, React, PostgreSQL)",
+        "Experience with embedded software and BSP development (Linux kernel drivers, PIC firmware)",
+        "Implement and maintain DevOps infrastructure on-prem and in the cloud, including automated deployment and monitoring",
+        "Familiar with mobile development on Android and iOS",
+        "Excellent configuration management practices - branching, merging, release candidates, etc."
+      ]
     },
     {
       "company": "SRI International",
       "position": "Software Engineer III",
-      "website": "https://www.sri.com",
-      "startDate": "2010-07-01",
-      "summary": "Member of System Software Design and Development group Maintained common software framework across all products Designed and developed software for multiple products in the biometrics and geospatial domains such as multimodal biometrics on mobile (Android) and embedded platforms and real-time video processing and georegistration systems  Supported the infrastructure for continuous integration, static analysis, and unit testing",
-      "highlights": [],
-      "endDate": "2016-08-01"
+      "url": "https://www.sri.com",
+      "startDate": "2010-07",
+      "endDate": "2016-08",
+      "summary": "Member of System Software Design and Development group",
+      "highlights": [
+        "Maintained common software framework across all products",
+        "Designed and developed software for multiple products in the biometrics and geospatial domains such as multimodal biometrics on mobile (Android) and embedded platforms, real-time video processing and georegistration systems",
+        "Algorithm implementation from MATLAB, focused on accuracy/performance/optimization (SIMD)",
+        "Supported the infrastructure for continuous integration, static analysis, and unit testing"
+      ]
     },
     {
       "company": "Lockheed Martin ATL",
       "position": "Software Developer",
-      "website": "https://www.lockheedmartin.com",
-      "startDate": "2009-04-01",
-      "summary": "Member of User-Centered Interfaces group focusing on Human Computer Interaction Lead the integration of two major internal software products Interfaced with spoken language understanding technology Handled multiple development tasks in Java and coordinated with a team of developers Implemented software utilities to automate manual testing tasks Designed dynamic and interactive interfaces for augmented reality efforts",
-      "highlights": [],
-      "endDate": "2009-09-01"
+      "url": "https://www.lockheedmartin.com",
+      "startDate": "2009-04",
+      "endDate": "2009-09",
+      "summary": "Member of User-Centered Interfaces group focusing on Human Computer Interaction",
+      "highlights": [
+        "Lead the integration of two major internal software products",
+        "Interfaced with spoken language understanding technology",
+        "Handled multiple development tasks in Java and coordinated with a team of developers",
+        "Implemented software utilities to automate manual testing tasks",
+        "Designed dynamic and interactive interfaces for augmented reality efforts"
+      ]
     },
     {
       "company": "Lockheed Martin MS2",
       "position": "Test Engineer",
-      "website": "https://www.lockheedmartin.com",
-      "startDate": "2008-04-01",
-      "summary": "Member of Engineering Test & Evaluation team for Ballistic Missile Defense signal processor Performed radar and signal processing tests at navy test facility Wrote documentation for test requirements and procedures Obtained full secret security clearance and dealt with classified information",
-      "highlights": [],
-      "endDate": "2008-09-01"
+      "url": "https://www.lockheedmartin.com",
+      "startDate": "2008-04",
+      "endDate": "2008-09",
+      "summary": "Member of Engineering Test & Evaluation team for Ballistic Missile Defense signal processor",
+      "highlights": [
+        "Performed radar and signal processing tests at navy test facility",
+        "Wrote documentation for test requirements and procedures",
+        "Obtained full secret security clearance and dealt with classified information"
+      ]
     },
     {
       "company": "PJM Interconnection",
       "position": "IT Support Analyst",
-      "website": "https://www.pjm.com",
-      "startDate": "2007-04-01",
-      "summary": "Member of Windows Infrastructure department Supported packaging and distribution of software/updates to company Aided department with general IT and Windows support Instrumental in training new employee on packaging processes",
-      "highlights": [],
-      "endDate": "2007-09-01"
+      "url": "https://www.pjm.com",
+      "startDate": "2007-04",
+      "endDate": "2007-09",
+      "summary": "Member of Windows Infrastructure department",
+      "highlights": [
+        "Supported packaging and distribution of software/updates to company",
+        "Aided department with general IT and Windows support",
+        "Instrumental in training new employee on packaging processes"
+      ]
     }
   ],
   "education": [
     {
       "institution": "Drexel University",
+      "url": "https://drexel.edu",
       "area": "Computer Engineering",
       "studyType": "BS",
       "startDate": "2005-09-01",
-      "gpa": "",
-      "courses": [],
-      "endDate": "2010-06-15"
+      "endDate": "2010-06-15",
+      "gpa": "3.62",
+      "courses": [
+        "Graduated with honors (Cum Laude)",
+        "Scholar-Athlete (NCAA Division 1)",
+        "Minor in Business Administration",
+        "Honors student",		
+        "Spanish"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "company": "Princeton Identity",
+      "name": "\"Method and System for Seamless Biometric System Self-Enrollment\"",
+      "publisher": "Patent (Provisional)"
+    },
+    {
+      "company": "Princeton Identity",
+      "name": "\"Face Biometric Recognition with Anti-Spoofing\"",
+      "publisher": "Patent (Provisional)"
     }
   ],
   "skills": [
     {
-      "name": "Software Engineering",
-      "level": "",
-      "keywords": []
+      "name": "Programming Languages",
+      "keywords": [
+        "Java",
+        "C/C++",
+        "SQL",
+        "C#",
+        "JavaScript/TypeScript",
+        "C++/CLI",
+        "Python"
+      ],
+	  "level": "master"
     },
     {
-      "name": "Software Design",
-      "level": "",
-      "keywords": []
+      "name": "DevOps",
+      "keywords": [
+        "Terraform",
+		"AWS",
+        "Docker",
+        "GitHub Actions",
+        "Jenkins"
+      ],
+	  "level": "master"	  
     },
     {
-      "name": "Visual Studio",
-      "level": "",
-      "keywords": []
+      "name": "OS",
+      "keywords": [
+        "Windows",
+        "Linux (Ubuntu, CentOS)",
+        "Embedded Linux"
+      ],
+	  "level": "master"	  
     },
     {
-      "name": "C",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Continuous Integration",
-      "level": "",
-      "keywords": []
+      "name": "IDE",
+      "keywords": [
+        "VS Code",
+        "IntelliJ",
+        "Visual Studio"
+      ],
+	  "level": "master"	  
     },
     {
       "name": "Static Analysis",
-      "level": "",
-      "keywords": []
+      "keywords": [
+        "FindBugs",
+        "Snyk",
+        "Coverity"
+      ],
+	  "level": "master"	  
     },
     {
       "name": "Unit Testing",
-      "level": "",
-      "keywords": []
+      "keywords": [
+        "JUnit",
+        "Mockito"
+      ],
+	  "level": "master"	  
     },
     {
-      "name": "C++",
-      "level": "",
-      "keywords": []
+      "name": "Build Tools",
+      "keywords": [
+        "Gradle",
+        "CMake",
+        "MSBuild",
+        "WiX Toolset"
+      ],
+	  "level": "master"	  
     },
     {
-      "name": "Subversion",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Linux",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Windows",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Java",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Android",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Jenkins",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "C++/CLI",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MSBuild",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "TFS",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "C#",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Software Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Devops",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Embedded Software",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Embedded Linux",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Embedded Systems",
-      "level": "",
-      "keywords": []
+      "name": "Version Control",
+      "keywords": [
+        "Git",
+        "Subversion",
+        "TFS"
+      ],
+	  "level": "master"	  
     }
   ],
   "languages": [
@@ -196,19 +215,29 @@
       "fluency": "Elementary proficiency"
     }
   ],
+  "interests": [
+    {
+      "name": "Soccer"
+    }
+  ],
   "projects": [
     {
       "name": "Open Source Contributions",
-      "startDate": "2016-01-01",
-      "summary": "libpopcnt, localstack, debezium, find-sec-bugs",
-      "url": ""
-    },  
+      "url": "https://github.com/KOConchobhair",
+      "highlights": [
+        "libpopcnt (Fast C/C++ bit population count library)",
+        "localstack (Local AWS cloud stack)",
+        "jansson (C library for handling JSON data)",
+        "terraform-provider-postmark"
+      ]
+    },
     {
       "name": "Senior Design Project",
       "startDate": "2009-09-01",
-      "summary": "Air Quality Sensor Network for Philadelphia Collaborated with the Philadelphia Clean Air Council to design and deploy a portable air quality sensor network. Recognized as 2nd best project in the ECE Department.",
-      "url": "",
-      "endDate": "2010-06-01"
+      "endDate": "2010-06-01",
+      "summary": "Air Quality Sensor Network for Philadelphia",
+      "url": "https://code.google.com/archive/p/ece01sd/",
+      "description": "Collaborated with the Philadelphia Clean Air Council to design and deploy a portable air quality sensor network (ZigBee). Recognized as 2nd best project in the ECE Department."
     }
   ]
 }
