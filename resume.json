@@ -2,12 +2,12 @@
   "basics": {
     "name": "Kyle O'Connor",
     "label": "Software Engineer",
-	"image": "",
+    "image": "",
     "email": "kyle.james.oconnor@gmail.com",
     "phone": "215-253-8556",
     "website": "https://koconchobhair.github.io",
     "url": "https://koconchobhair.github.io",
-    "summary": "Senior level Software Engineer with strong technical and leadership skills as well as 12 years of experience across the R&D, defense and biometrics industries.",
+    "summary": "Staff level Software Engineer with strong technical and leadership skills as well as 13 years of experience across the R&D, defense and biometrics industries.",
     "location": {
       "address": "2316 Mercer Street",
       "postalCode": "19125",
@@ -28,19 +28,37 @@
   },
   "work": [
     {
+      "company": "Mighty",
+      "position": "Senior Software Engineer",
+      "url": "https://www.mightyapp.com",
+      "startDate": "2022-06",
+      "endDate": "2022-11",
+      "summary": "Mighty was a startup company that created a web browser streamed from a powerful computer in the cloud, focused on improving speed and performance.",
+      "highlights": [
+        "Worked on the full stack from serverless functions in GCP to client and server Node.js applications in TypeScript and C++",
+        "Responsible for porting the existing macOS client application to Windows which launched to alpha customers in November 2022",
+        "Implemented hardware decoding and rendering with DirectX 11, audio with WASAPI and native UI with Win32 API",
+        "Shipped native M1 (arm64) build of macOS client to massively improve performance on Apple Silicon devices",
+        "Helped maintain CI/CD in GitHub Actions and implemented automated static code analysis using Infer",
+        "Became familiar with Chromium and electron development",
+        "Involved in interviewing candidates and helped to onboard and mentor new hires"
+      ]
+    },
+    {
       "company": "Princeton Identity",
       "position": "Lead Software Engineer",
       "url": "https://www.princetonidentity.com",
       "startDate": "2016-08",
-      "summary": " Princeton Identity is a biometric identity management company used in various markets such as government, physical access control, commercial real estate. Created as a spin-off from SRI International with investment from Samsung.",
+      "endDate": "2022-06",
+      "summary": "Princeton Identity is a startup biometric identity management company used by various markets such as government, physical access control, commercial real estate. Created as a spin-off from SRI International with investment from Samsung.",
       "highlights": [
-        "Lead the software team and all software development efforts, including software/hardware integration",
-        "Architected multi-tenant cloud application using AWS (and other services), focused on security and best practices",
+        "Lead the software team and all software development efforts/decisions, including software/hardware integration",
+        "Architected multi-tenant cloud application on AWS (and other services), focused on security and best practices (Terraform)",
         "Design and develop frontend and backend web applications for multimodal biometrics products (Spring Boot, React, PostgreSQL)",
-        "Experience with embedded software and BSP development (Linux kernel drivers, PIC firmware)",
-        "Implement and maintain DevOps infrastructure on-prem and in the cloud, including automated deployment and monitoring",
-        "Familiar with mobile development on Android and iOS",
-        "Excellent configuration management practices - branching, merging, release candidates, etc."
+        "Experience with embedded software and BSP development (Yocto, Linux kernel drivers, PIC firmware)",
+        "Implement and maintain DevOps infrastructure on-prem and in the cloud, including automated deployment and monitoring (Sentry)",
+        "Excellent configuration management practices - branching, merging, release candidates, feature flagging, etc.",
+        "Became familiar with mobile development on Android and iOS"
       ]
     },
     {
@@ -51,7 +69,7 @@
       "endDate": "2016-08",
       "summary": "Member of System Software Design and Development group",
       "highlights": [
-        "Maintained common software framework across all products",
+        "Maintained common and cross-platform software framework across all products written in C",
         "Designed and developed software for multiple products in the biometrics and geospatial domains such as multimodal biometrics on mobile (Android) and embedded platforms, real-time video processing and georegistration systems",
         "Algorithm implementation from MATLAB, focused on accuracy/performance/optimization (SIMD)",
         "Supported the infrastructure for continuous integration, static analysis, and unit testing"
@@ -105,8 +123,8 @@
       "url": "https://drexel.edu",
       "area": "Computer Engineering",
       "studyType": "BS",
-      "startDate": "2005-09-01",
-      "endDate": "2010-06-15",
+      "startDate": "2005-09",
+      "endDate": "2010-06",
       "gpa": "3.62",
       "courses": [
         "Graduated with honors (Cum Laude)",
@@ -121,7 +139,8 @@
     {
       "company": "Princeton Identity",
       "name": "\"Method and System for Seamless Biometric System Self-Enrollment\"",
-      "publisher": "Patent (Provisional)"
+      "publisher": "Patent (US20220253514A1)",
+      "url": "https://patentimages.storage.googleapis.com/fa/75/fc/f644561978b6ea/US20220253514A1.pdf"
     },
     {
       "company": "Princeton Identity",
@@ -135,76 +154,46 @@
       "keywords": [
         "Java",
         "C/C++",
+        "JavaScript/TypeScript",
         "SQL",
         "C#",
-        "JavaScript/TypeScript",
         "C++/CLI",
         "Python"
       ]
     },
     {
       "name": "DevOps",
-      "keywords": [
-        "Terraform",
-		"AWS",
-        "Docker",
-        "GitHub Actions",
-        "Jenkins"
-      ]
+      "keywords": ["Terraform", "AWS", "Docker", "GitHub Actions", "Jenkins"]
     },
     {
       "name": "OS",
-      "keywords": [
-        "Windows",
-        "Linux (Ubuntu, CentOS)",
-        "Embedded Linux"
-      ]
+      "keywords": ["Windows", "Linux (Ubuntu, CentOS)", "Embedded Linux"]
     },
     {
       "name": "IDE",
-      "keywords": [
-        "VS Code",
-        "IntelliJ",
-        "Visual Studio"
-      ]
+      "keywords": ["VS Code", "IntelliJ", "Visual Studio"]
     },
     {
       "name": "Static Analysis",
-      "keywords": [
-        "FindBugs",
-        "Snyk",
-        "Coverity"
-      ]
+      "keywords": ["FindBugs", "Snyk", "Coverity", "Infer"]
     },
     {
       "name": "Unit Testing",
-      "keywords": [
-        "JUnit",
-        "Mockito"
-      ]
+      "keywords": ["JUnit", "Mockito"]
     },
     {
       "name": "Build Tools",
-      "keywords": [
-        "Gradle",
-        "CMake",
-        "MSBuild",
-        "WiX Toolset"
-      ]
+      "keywords": ["Gradle", "CMake", "MSBuild", "WiX Toolset"]
     },
     {
       "name": "Version Control",
-      "keywords": [
-        "Git",
-        "Subversion",
-        "TFS"
-      ]
+      "keywords": ["Git", "Subversion", "TFS"]
     }
   ],
   "languages": [
     {
       "language": "Brazilian Portuguese",
-      "fluency": "Elementary proficiency"
+      "fluency": "Limited Working Proficiency"
     }
   ],
   "interests": [
@@ -220,13 +209,14 @@
         "libpopcnt (Fast C/C++ bit population count library)",
         "localstack (Local AWS cloud stack)",
         "jansson (C library for handling JSON data)",
-        "terraform-provider-postmark"
+        "terraform-provider-postmark",
+        "electron"
       ]
     },
     {
       "name": "Senior Design Project",
-      "startDate": "2009-09-01",
-      "endDate": "2010-06-01",
+      "startDate": "2009-09",
+      "endDate": "2010-06",
       "summary": "Air Quality Sensor Network for Philadelphia",
       "url": "https://code.google.com/archive/p/ece01sd/",
       "description": "Collaborated with the Philadelphia Clean Air Council to design and deploy a portable air quality sensor network (ZigBee). Recognized as 2nd best project in the ECE Department."
