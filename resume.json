@@ -31,6 +31,7 @@
   "work": [
     {
       "company": "Mighty",
+      "name": "Mighty",
       "position": "Senior Software Engineer",
       "url": "https://www.mightyapp.com",
       "startDate": "2022-06",
@@ -48,6 +49,7 @@
     },
     {
       "company": "Princeton Identity",
+      "name": "Princeton Identity",
       "position": "Lead Software Engineer",
       "url": "https://www.princetonidentity.com",
       "startDate": "2016-08",
@@ -65,6 +67,7 @@
     },
     {
       "company": "SRI International",
+      "name": "SRI International",
       "position": "Software Engineer III",
       "url": "https://www.sri.com",
       "startDate": "2010-07",
@@ -210,7 +213,7 @@
   ],
   "interests": [
     {
-      "name": "Soccer"
+      "name": "⚽️ Soccer"
     }
   ],
   "projects": [
