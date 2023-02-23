@@ -2,27 +2,28 @@
   "basics": {
     "name": "Kyle O'Connor",
     "label": "Software Engineer",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/D4D35AQGLM41Gv9Lncg/profile-framedphoto-shrink_400_400/0/1677094379184?e=1677783600&v=beta&t=jTDh4LG7-qeUCm0irW-WEE1mcstNIWdXRZm1zfoFPr0",
     "email": "kyle.james.oconnor@gmail.com",
     "phone": "215-253-8556",
     "website": "https://koconchobhair.github.io",
     "url": "https://koconchobhair.github.io",
-    "summary": "Staff level Software Engineer with strong technical and leadership skills as well as 13 years of experience across the R&D, defense and biometrics industries.",
+    "summary": "I am a results oriented generalist software engineer with over 10 years of experience in startups and R&D companies. My strengths are: extreme attention to detail, being a force multiplier/unblocking people and providing natural leadership.",
     "location": {
-      "address": "2316 Mercer Street",
-      "postalCode": "19125",
+      "address": "",
+      "postalCode": "",
       "city": "Philadelphia",
-      "countryCode": "USA",
+      "countryCode": "US",
       "region": "PA"
     },
     "profiles": [
       {
-        "network": "Resume (PDF)",
-        "url": "https://koconchobhair.github.io/resume.pdf"
+        "network": "linkedin",
+        "url": "https://www.linkedin.com/in/kylejoconnor",
+        "username": "kylejoconnor"
       },
       {
-        "network": "LinkedIn",
-        "url": "https://www.linkedin.com/in/kylejoconnor"
+        "network": "Resume",
+        "url": "https://koconchobhair.github.io/resume.pdf"
       }
     ]
   },
@@ -33,7 +34,7 @@
       "url": "https://www.mightyapp.com",
       "startDate": "2022-06",
       "endDate": "2022-11",
-      "summary": "Mighty was a startup company that created a web browser streamed from a powerful computer in the cloud, focused on improving speed and performance.",
+      "summary": "Mighty was a startup company that created a web browser streamed from a powerful computer in the cloud.",
       "highlights": [
         "Worked on the full stack from serverless functions in GCP to client and server Node.js applications in TypeScript and C++",
         "Responsible for porting the existing macOS client application to Windows which launched to alpha customers in November 2022",
@@ -122,7 +123,7 @@
       "institution": "Drexel University",
       "url": "https://drexel.edu",
       "area": "Computer Engineering",
-      "studyType": "BS",
+      "studyType": "Bachelor of Science",
       "startDate": "2005-09",
       "endDate": "2010-06",
       "gpa": "3.62",

@@ -23,9 +23,11 @@
   "homepage": "https://koconchobhair.github.io",
   "dependencies": {
     "jsonresume-theme-actual": "^0.1.6",
+    "jsonresume-theme-kendall": "^0.2.0",
     "jsonresume-theme-onepage": "0.0.3",
     "jsonresume-theme-orbit": "^1.1.0",
     "jsonresume-theme-short": "^0.1.7",
+    "jsonresume-theme-spartan": "^0.3.0",
     "resume-cli": "^3.0.6"
   }
 }
