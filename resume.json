@@ -80,47 +80,6 @@
         "Algorithm implementation from MATLAB, focused on accuracy/performance/optimization (SIMD)",
         "Supported the infrastructure for continuous integration, static analysis, and unit testing"
       ]
-    },
-    {
-      "company": "Lockheed Martin ATL",
-      "position": "Software Developer",
-      "url": "https://www.lockheedmartin.com",
-      "startDate": "2009-04",
-      "endDate": "2009-09",
-      "summary": "Member of User-Centered Interfaces group focusing on Human Computer Interaction",
-      "highlights": [
-        "Lead the integration of two major internal software products",
-        "Interfaced with spoken language understanding technology",
-        "Handled multiple development tasks in Java and coordinated with a team of developers",
-        "Implemented software utilities to automate manual testing tasks",
-        "Designed dynamic and interactive interfaces for augmented reality efforts"
-      ]
-    },
-    {
-      "company": "Lockheed Martin MS2",
-      "position": "Test Engineer",
-      "url": "https://www.lockheedmartin.com",
-      "startDate": "2008-04",
-      "endDate": "2008-09",
-      "summary": "Member of Engineering Test & Evaluation team for Ballistic Missile Defense signal processor",
-      "highlights": [
-        "Performed radar and signal processing tests at navy test facility",
-        "Wrote documentation for test requirements and procedures",
-        "Obtained full secret security clearance and dealt with classified information"
-      ]
-    },
-    {
-      "company": "PJM Interconnection",
-      "position": "IT Support Analyst",
-      "url": "https://www.pjm.com",
-      "startDate": "2007-04",
-      "endDate": "2007-09",
-      "summary": "Member of Windows Infrastructure department",
-      "highlights": [
-        "Supported packaging and distribution of software/updates to company",
-        "Aided department with general IT and Windows support",
-        "Instrumental in training new employee on packaging processes"
-      ]
     }
   ],
   "education": [
