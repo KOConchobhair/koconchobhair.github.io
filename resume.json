@@ -9,7 +9,6 @@
     "summary": "I am a results oriented generalist software engineer with over 10 years of experience in startups and R&D companies. My strengths are: extreme attention to detail, being a force multiplier/unblocking people and providing natural leadership. Outside of work, you will find me either playing, watching, or attending soccer matches.",
     "location": {
       "city": "Philadelphia",
-      "countryCode": "US",
       "region": "PA"
     },
     "profiles": [
@@ -99,15 +98,13 @@
   ],
   "publications": [
     {
-      "company": "Princeton Identity",
-      "name": "\"Method and System for Seamless Biometric System Self-Enrollment\"",
-      "publisher": "US Patent Office (US20220253514A1)",
+      "name": "\"Method and System for Seamless Biometric System Self-Enrollment\" (US20220253514A1)",
+      "publisher": "US Patent and Trademark Office",
       "url": "https://patents.google.com/patent/US20220253514A1"
     },
     {
-      "company": "Princeton Identity",
-      "name": "\"Face Biometric Recognition with Anti-Spoofing\"",
-      "publisher": "US Patent Office (Provisional)"
+      "name": "\"Face Biometric Recognition with Anti-Spoofing\" (Provisional)",
+      "publisher": "US Patent and Trademark Office"
     }
   ],
   "skills": [
@@ -220,7 +217,7 @@
     {
       "name": "Open Source Contributions",
       "url": "https://github.com/KOConchobhair",
-      "description": "libpopcnt (Fast C/C++ bit population count library), localstack (Local AWS cloud stack)"
+      "description": "libpopcnt (Fast C/C++ bit population count library), localstack (Local AWS cloud stack), LaunchDarkly (C Client SDK)"
     },
     {
       "name": "Senior Design Project",
