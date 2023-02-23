@@ -7,7 +7,7 @@
     "phone": "215-253-8556",
     "website": "https://koconchobhair.github.io",
     "url": "https://koconchobhair.github.io",
-    "summary": "I am a results oriented generalist software engineer with over 10 years of experience in startups and R&D companies. My strengths are: extreme attention to detail, being a force multiplier/unblocking people and providing natural leadership.",
+    "summary": "I am a results oriented generalist software engineer with over 10 years of experience in startups and R&D companies. My strengths are: extreme attention to detail, being a force multiplier/unblocking people and providing natural leadership. Outside of work, you will find me either playing, watching, or attending soccer matches.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -17,9 +17,14 @@
     },
     "profiles": [
       {
-        "network": "linkedin",
+        "network": "LinkedIn",
         "url": "https://www.linkedin.com/in/kylejoconnor",
         "username": "kylejoconnor"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/KOConchobhair",
+        "username": "KOConchobhair"
       },
       {
         "network": "Resume",
@@ -126,12 +131,12 @@
       "studyType": "Bachelor of Science",
       "startDate": "2005-09",
       "endDate": "2010-06",
-      "gpa": "3.62",
+      "gpa": "3.65",
       "courses": [
         "Graduated with honors (Cum Laude)",
         "Scholar-Athlete (NCAA Division 1)",
+        "Honors Student",
         "Minor in Business Administration",
-        "Honors student",
         "Spanish"
       ]
     }
@@ -140,13 +145,13 @@
     {
       "company": "Princeton Identity",
       "name": "\"Method and System for Seamless Biometric System Self-Enrollment\"",
-      "publisher": "Patent (US20220253514A1)",
-      "url": "https://patentimages.storage.googleapis.com/fa/75/fc/f644561978b6ea/US20220253514A1.pdf"
+      "publisher": "US Patent Office (US20220253514A1)",
+      "url": "https://patents.google.com/patent/US20220253514A1"
     },
     {
       "company": "Princeton Identity",
       "name": "\"Face Biometric Recognition with Anti-Spoofing\"",
-      "publisher": "Patent (Provisional)"
+      "publisher": "US Patent Office (Provisional)"
     }
   ],
   "skills": [
@@ -159,36 +164,89 @@
         "SQL",
         "C#",
         "C++/CLI",
-        "Python"
+        "Python",
+        "Rust"
       ]
     },
     {
       "name": "DevOps",
-      "keywords": ["Terraform", "AWS", "Docker", "GitHub Actions", "Jenkins"]
+      "keywords": [
+        "Terraform",
+        "AWS",
+        "Docker",
+        "GitHub Actions",
+        "Jenkins",
+        "Sentry"
+      ]
+    },
+    {
+      "name": "AWS",
+      "keywords": [
+        "VPC",
+        "EC2",
+        "ALB",
+        "S3",
+        "RDS",
+        "DynamoDB",
+        "ElastiCache",
+        "Kinesis",
+        "Lambda",
+        "ECS",
+        "Fargate"
+      ]
     },
     {
       "name": "OS",
-      "keywords": ["Windows", "Linux (Ubuntu, CentOS)", "Embedded Linux"]
+      "keywords": [
+        "Windows",
+        "Linux (Ubuntu, CentOS)",
+        "Embedded Linux (Yocto)",
+        "MacOS"
+      ]
     },
     {
       "name": "IDE",
-      "keywords": ["VS Code", "IntelliJ", "Visual Studio"]
+      "keywords": [
+        "Visual Studio Code",
+        "IntelliJ IDEA",
+        "Visual Studio"
+      ]
     },
     {
       "name": "Static Analysis",
-      "keywords": ["FindBugs", "Snyk", "Coverity", "Infer"]
+      "keywords": [
+        "FindBugs",
+        "Snyk",
+        "Coverity",
+        "Infer"
+      ]
     },
     {
       "name": "Unit Testing",
-      "keywords": ["JUnit", "Mockito"]
+      "keywords": [
+        "JUnit",
+        "Mockito",
+        "Jest"
+      ]
     },
     {
       "name": "Build Tools",
-      "keywords": ["Gradle", "CMake", "MSBuild", "WiX Toolset"]
+      "keywords": [
+        "Yarn",
+        "Gradle",
+        "CMake",
+        "MSBuild",
+        "WiX Toolset"
+      ]
     },
     {
       "name": "Version Control",
-      "keywords": ["Git", "Subversion", "TFS"]
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Subversion",
+        "TFS"
+      ]
     }
   ],
   "languages": [
@@ -206,20 +264,14 @@
     {
       "name": "Open Source Contributions",
       "url": "https://github.com/KOConchobhair",
-      "highlights": [
-        "libpopcnt (Fast C/C++ bit population count library)",
-        "localstack (Local AWS cloud stack)",
-        "jansson (C library for handling JSON data)",
-        "terraform-provider-postmark",
-        "electron"
-      ]
+      "description": "libpopcnt (Fast C/C++ bit population count library), localstack (Local AWS cloud stack)"
     },
     {
       "name": "Senior Design Project",
       "startDate": "2009-09",
       "endDate": "2010-06",
       "summary": "Air Quality Sensor Network for Philadelphia",
-      "url": "https://code.google.com/archive/p/ece01sd/",
+      "url": "https://sites.google.com/site/ece01sd",
       "description": "Collaborated with the Philadelphia Clean Air Council to design and deploy a portable air quality sensor network (ZigBee). Recognized as 2nd best project in the ECE Department."
     }
   ]
