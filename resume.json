@@ -54,7 +54,7 @@
       "url": "https://www.princetonidentity.com",
       "startDate": "2016-08",
       "endDate": "2022-06",
-      "summary": "A startup biometric identity management company targeting physical access control and commercial real estate markets. Created as a spin-off from SRI International with investment from Samsung. I was a founding member of the company.",
+      "summary": "A biometric identity management startup targeting physical access control and commercial real estate markets. Created as a spin-off from SRI International with investment from Samsung. I was a founding member of the company.",
       "highlights": [
         "Led the software team of 5 engineers and all software development efforts/decisions/strategy. Also responsible for DevOps/SRE.",
         "Architected and launched a multi-tenant cloud application on AWS, focused on scalability, security and best practices using IaC (Terraform).",
