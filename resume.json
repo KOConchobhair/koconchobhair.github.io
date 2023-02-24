@@ -36,15 +36,15 @@
       "url": "https://www.mightyapp.com",
       "startDate": "2022-06",
       "endDate": "2022-11",
-      "summary": "Mighty was a startup company that created a web browser streamed from a powerful computer in the cloud.",
+      "summary": "A startup building a faster web browser by streaming Chrome from the cloud. I was employee #20.",
       "highlights": [
-        "Worked on the full stack from serverless functions in GCP to client and server Node.js applications in TypeScript and C++",
-        "Responsible for porting the existing macOS client application to Windows which launched to alpha customers in November 2022",
-        "Implemented hardware decoding and rendering with DirectX 11, audio with WASAPI and native UI with Win32 API",
-        "Shipped native M1 (arm64) build of macOS client to massively improve performance on Apple Silicon devices",
-        "Helped maintain CI/CD in GitHub Actions and implemented automated static code analysis using Infer",
-        "Became familiar with Chromium and electron development",
-        "Involved in interviewing candidates and helped to onboard and mentor new hires"
+        "2nd member of the Windows team responsible for porting the macOS browser to Windows which launched to alpha customers in November 2022.",
+        "Implemented hardware decoding/rendering/shaders (DirectX), audio playback (RtAudio/WASAPI) and native UI (Win32 API).",
+        "Shipped native M1 (arm64) build of macOS browser to massively improve performance on Apple Silicon devices.",
+        "Directly responsible individual for hardware security keys feature involving cross-platform C++ and client/server Node.js applications in TypeScript.",
+        "Maintained CI/CD in GitHub Actions and implemented automated static code analysis using Infer.",
+        "Involved in customer support, interviewing candidates and helped to onboard and mentor new hires.",
+        "Became familiar with Chromium and Electron development."
       ]
     },
     {
@@ -54,15 +54,18 @@
       "url": "https://www.princetonidentity.com",
       "startDate": "2016-08",
       "endDate": "2022-06",
-      "summary": "Princeton Identity is a startup biometric identity management company used by various markets such as government, physical access control, commercial real estate. Created as a spin-off from SRI International with investment from Samsung.",
+      "summary": "A startup biometric identity management company targeting physical access control and commercial real estate markets. Created as a spin-off from SRI International with investment from Samsung. I was a founding member of the company.",
       "highlights": [
-        "Lead the software team and all software development efforts/decisions, including software/hardware integration",
-        "Architected multi-tenant cloud application on AWS (and other services), focused on security and best practices (Terraform)",
-        "Design and develop frontend and backend web applications for multimodal biometrics products (Spring Boot, React, PostgreSQL)",
-        "Experience with embedded software and BSP development (Yocto, Linux kernel drivers, PIC firmware)",
-        "Implement and maintain DevOps infrastructure on-prem and in the cloud, including automated deployment and monitoring (Sentry)",
-        "Excellent configuration management practices - branching, merging, release candidates, feature flagging, etc.",
-        "Became familiar with mobile development on Android and iOS"
+        "Led the software team of 5 engineers and all software development efforts/decisions/strategy. Also responsible for DevOps/SRE.",
+        "Architected and launched a multi-tenant cloud application on AWS, focused on scalability, security and best practices using IaC (Terraform).",
+        "Designed and implemented an external data sychronization system using PostgreSQL, Debezium, AWS Kinesis and AWS Lambda.",
+        "Designed, developed, debugged frontend and backend web applications for biometric access control solutions (Spring Boot, React, PostgreSQL).",
+        "Fully automated builds and cloud deployments with GitHub Actions, Packer and Terraform Cloud. Introduced static analysis tools (Sentry, Infer, FindBugs).",
+        "Designed, developed, debugged embedded C/C++ code for biometric device hardware. Wrote multiple Linux kernel drivers for cameras and other sensors.",
+        "Maintained custom Linux kernel and U-boot forks, Yocto BSP toolchain and automated build system.",
+        "Implemented secure boot and zero copy video decode and rendering pipeline (OpenGL) on embedded NXP/Freescale i.MX6 platform.",
+        "Managed bare metal servers running VMware ESXi and vSphere. Set up firewall, internal networking and vSAN to separate storage and compute.",
+        "Became familiar with mobile development on both Android (Kotlin) and iOS (Swift)."
       ]
     },
     {
@@ -72,12 +75,12 @@
       "url": "https://www.sri.com",
       "startDate": "2010-07",
       "endDate": "2016-08",
-      "summary": "Member of System Software Design and Development group",
+      "summary": "Formerly Sarnoff Corporation, a technology research and development firm. I was a member of the System Software Design and Development group.",
       "highlights": [
-        "Maintained common and cross-platform software framework across all products written in C",
-        "Designed and developed software for multiple products in the biometrics and geospatial domains such as multimodal biometrics on mobile (Android) and embedded platforms, real-time video processing and georegistration systems",
-        "Algorithm implementation from MATLAB, focused on accuracy/performance/optimization (SIMD)",
-        "Supported the infrastructure for continuous integration, static analysis, and unit testing"
+        "Software team lead for a multimodal handheld biometric recognition device involving custom Android (AOSP) fork and Android Java application.",
+        "Designed and developed software in C++ for real-time video processing and georegistration systems for UAVs.",
+        "Wrote algorithm implementations based on MATLAB in C, focused on accuracy/performance/optimization (SIMD).",
+        "Bulit the DevOps infrastructure for code review, continuous integration, static analysis, and unit testing (Jenkins)."
       ]
     }
   ],
@@ -114,12 +117,12 @@
     {
       "name": "Programming Languages",
       "keywords": [
+        "C++",
         "Java",
-        "C/C++",
+        "C",
         "JavaScript/TypeScript",
         "SQL",
         "C#",
-        "C++/CLI",
         "Python",
         "Rust"
       ]
