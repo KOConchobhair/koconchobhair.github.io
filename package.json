@@ -5,8 +5,8 @@
   "main": "resume.json",
   "scripts": {
     "test": "./node_modules/.bin/resume validate",
-    "build": "./node_modules/.bin/resume export --theme onepage --format html docs/index.html",
-    "export": "./node_modules/.bin/resume export --theme short --format pdf docs/resume.pdf"
+    "build": "./node_modules/.bin/resume export --theme kendall --format html docs/index.html",
+    "export": "./node_modules/.bin/resume export --theme spartan --format pdf docs/resume.pdf"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,11 @@
   "homepage": "https://koconchobhair.github.io",
   "dependencies": {
     "jsonresume-theme-actual": "^0.1.6",
+    "jsonresume-theme-kendall": "^0.2.0",
     "jsonresume-theme-onepage": "0.0.3",
     "jsonresume-theme-orbit": "^1.1.0",
     "jsonresume-theme-short": "^0.1.7",
+    "jsonresume-theme-spartan": "^0.3.0",
     "resume-cli": "^3.0.6"
   }
 }
