@@ -54,18 +54,18 @@
       "url": "https://www.princetonidentity.com",
       "startDate": "2016-08",
       "endDate": "2022-06",
-      "summary": "A biometric identity management startup targeting physical access control and commercial real estate markets. Created as a spin-off from SRI International with investment from Samsung. I was a founding member of the company.",
+      "summary": "Founding member of a biometric identity management startup targeting physical access control and commercial real estate markets. Created as a spin-off from SRI International with investment from Samsung.",
       "highlights": [
-        "Led the software team of 5 engineers and all software development efforts/decisions/strategy.",
-        "Architected and launched a multi-tenant cloud application on AWS, focused on scalability, security and best practices using IaC (Terraform).",
-        "Designed and implemented an external data sychronization system using PostgreSQL, Debezium, AWS Kinesis and AWS Lambda.",
-        "Designed, developed, debugged frontend and backend web applications for biometric access control solutions (Spring Boot, React, PostgreSQL).",
-        "Fully automated builds and cloud deployments with GitHub Actions, Packer and Terraform Cloud. Introduced static analysis tools (Sentry, Infer, FindBugs).",
-        "Designed, developed, debugged embedded C/C++ code for biometric device hardware. Wrote multiple Linux kernel drivers for cameras and other sensors.",
-        "Maintained custom Linux kernel and U-boot forks, Yocto BSP toolchain and automated build system.",
-        "Implemented secure boot and zero copy video decode and rendering pipeline (OpenGL) on embedded NXP/Freescale i.MX6 platform.",
-        "Managed bare metal servers running VMware ESXi and vSphere. Set up firewall, internal networking and vSAN to separate storage and compute.",
-        "Became familiar with mobile development on both Android (Kotlin) and iOS (Swift)."
+        "Led a team of 5 engineers and directed all software development efforts, including strategy and decision-making.",
+        "Architected and launched a multi-tenant cloud application on AWS, emphasizing security best practices using IaC (Terraform).",
+        "Designed and implemented an external data synchronization system using PostgreSQL, Debezium, AWS Kinesis, and AWS Lambda.",
+        "Developed, debugged, and maintained frontend and backend web applications for biometric access control solutions (Spring Boot, React, PostgreSQL).",
+        "Automated builds and cloud deployments using GitHub Actions, Packer, and Terraform Cloud, and introduced static analysis tools (Sentry, Infer, FindBugs).",
+        "Designed, developed, and debugged embedded C/C++ code for biometric device hardware, including writing multiple Linux kernel drivers for cameras and sensors.",
+        "Maintained custom Linux kernel and U-boot forks, Yocto BSP toolchain, and automated build system.",
+        "Implemented secure boot and zero-copy video decode and rendering pipeline (OpenGL) on embedded NXP/Freescale i.MX6 platform.",
+        "Managed bare metal servers running VMware ESXi and vSphere, and set up firewall, internal networking, and vSAN to separate storage and compute.",
+        "Gained experience with mobile development on both Android (Kotlin) and iOS (Swift)."
       ]
     },
     {
