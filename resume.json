@@ -36,15 +36,15 @@
       "url": "https://www.mightyapp.com",
       "startDate": "2022-06",
       "endDate": "2022-11",
-      "summary": "A startup building a faster web browser by streaming Chrome from the cloud. I was employee #20.",
+      "summary": "Joined startup as employee #20 to build a faster web browser by streaming Chrome from the cloud. Decommissioned in late 2022.",
       "highlights": [
-        "2nd member of the Windows team responsible for porting the macOS browser to Windows which launched to alpha customers in November 2022.",
-        "Implemented hardware decoding/rendering/shaders (DirectX), audio playback (RtAudio/WASAPI) and native UI (Win32 API).",
-        "Shipped native M1 (arm64) build of macOS browser to massively improve performance on Apple Silicon devices.",
-        "Directly responsible individual for hardware security keys feature involving cross-platform C++ and client/server Node.js applications in TypeScript.",
+        "Led the Windows team responsible for porting the macOS browser to Windows, delivering an alpha version to 10 customers in November 2022.",
+        "Developed and implemented hardware decoding/rendering/shaders (DirectX), audio playback (RtAudio/WASAPI), and native UI (Win32 API).",
+        "Shipped a native M1 (arm64) build of the macOS browser, resulting in a significant performance improvement on Apple Silicon devices.",
+        "Took ownership of hardware security keys feature involving cross-platform C++ and client/server Node.js applications in TypeScript.",
         "Maintained CI/CD in GitHub Actions and implemented automated static code analysis using Infer.",
-        "Involved in customer support, interviewing candidates and helped to onboard and mentor new hires.",
-        "Became familiar with Chromium and Electron development."
+        "Provided customer support, participated in interviewing candidates, and mentored new hires.",
+        "Gained expertise in Chromium and Electron development."
       ]
     },
     {
