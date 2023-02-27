@@ -75,12 +75,12 @@
       "url": "https://www.sri.com",
       "startDate": "2010-07",
       "endDate": "2016-08",
-      "summary": "Formerly Sarnoff Corporation, a technology research and development firm. I was a member of the System Software Design and Development group.",
+      "summary": "A technology research and development firm formerly known as Sarnoff Corporation. As a member of the System Software Design and Development group, I contributed to various projects involving biometric recognition and real-time video processing.",
       "highlights": [
-        "Software team lead for a multimodal handheld biometric recognition device involving custom Android (AOSP) fork and Android Java application.",
-        "Designed and developed software in C++ for real-time video processing and georegistration systems for UAVs.",
-        "Wrote algorithm implementations based on MATLAB in C, focused on accuracy/performance/optimization (SIMD).",
-        "Bulit the DevOps infrastructure for code review, continuous integration, static analysis, and unit testing (Jenkins)."
+        "Led a software team in developing a multimodal handheld biometric recognition device, which included a custom Android (AOSP) fork and an Android Java application.",
+        "Designed and developed real-time video processing and georegistration applications for unmanned aerial vehicles (UAVs) using C++.",
+        "Implemented and optimized image processing algorithms based on MATLAB in C, achieving a reduction in processing time using SIMD instructions.",
+        "Established the DevOps infrastructure for code review, continuous integration, static analysis, and unit testing using Jenkins."
       ]
     }
   ],
