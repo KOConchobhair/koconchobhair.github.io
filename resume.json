@@ -6,7 +6,7 @@
     "email": "kyle.james.oconnor@gmail.com",
     "phone": "215-253-8556",
     "url": "https://koconchobhair.github.io",
-    "summary": "I am a results-oriented software engineer with over 10 years of experience in startups and R&D companies. I have been recognized for my attention to detail, my ability to unblock team members and provide technical leadership. While I am a generalist, my current strongest technical areas are cloud infrastructure, backend development, and embedded systems. Outside of work, I enjoy playing, watching and attending soccer matches.",
+    "summary": "I am a results-oriented software engineer with nearly 15 years of experience in startups and R&D companies. I have been recognized for my attention to detail, my ability to unblock team members and provide technical leadership. While I am a generalist, my current strongest technical areas are cloud infrastructure, backend development, and embedded systems. Outside of work, I enjoy playing, watching and attending soccer matches.",
     "location": {
       "city": "Philadelphia",
       "region": "PA"
@@ -29,6 +29,13 @@
     ]
   },
   "work": [
+    {
+      "company": "Rank One",
+      "name": "Rank One",
+      "position": "Senior Software Engineer",
+      "url": "https://www.roc.ai",
+      "startDate": "2023-04"
+    },
     {
       "company": "Mighty",
       "name": "Mighty",
