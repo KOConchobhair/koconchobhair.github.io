@@ -111,13 +111,14 @@
   ],
   "publications": [
     {
-      "name": "\"Method and System for Seamless Biometric System Self-Enrollment\" (US20220253514A1)",
+      "name": "\"Method and system for seamless biometric system self-enrollment\" (US20220253514A1)",
       "publisher": "US Patent and Trademark Office",
       "url": "https://patents.google.com/patent/US20220253514A1"
     },
     {
-      "name": "\"Face Biometric Recognition with Anti-Spoofing\" (Provisional)",
-      "publisher": "US Patent and Trademark Office"
+      "name": "\"Face biometric recognition with anti-spoofing\" (US20230350996A1)",
+      "publisher": "US Patent and Trademark Office",
+      "url": "https://patents.google.com/patent/US20230350996A1"
     }
   ],
   "skills": [
